@@ -17,7 +17,8 @@
         text-decoration: none;
 
         .left{
-
+            display: flex;
+            align-items: center;
             .logo{
                 padding-right: 10px;
                 font-size: 30px;
