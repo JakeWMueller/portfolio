@@ -1,5 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-/home/aristos/Programming/SideProjects/reactportfolio/public/assets
+/home/aristos/Programming/SideProjects/reactportfolio/src/assets
 # dependencies
 /node_modules
 /.pnp
