@@ -1,6 +1,5 @@
 import Hi from "./components/hi/Hi";
 import Navbar from "./components/navbar/Navbar";
-import About from "./components/about/About";
 import Skills from "./components/skills/Skills";
 import Pokedex from "./components/projects/Pokedex";
 import MappinApp from "./components/projects/MappinApp";
@@ -16,7 +15,6 @@ function App() {
       <Navbar/>
       <div className="sections">
       <Hi/>
-      <About/>
       <Skills/>
       <Pokedex/>
       <MappinApp/>
