@@ -1,12 +1,11 @@
-// import "./skills.scss";
+import "./skills.scss";
 import backgroundVideo from "../../assets/old-house-japan-autumn-leaves-desktop-wallpaperwaifu.com.mp4";
+import backgroundPicture from "../../assets/dojo.png";
 
 export default function Skills() {
     return (
         <div className="skills" id="skills">
-            <video autoPlay loop muted id="winter">
-                <source src={backgroundVideo} type="video/mp4"/>
-            </video>
+            <video playsInline autoPlay loop muted className="dojoVideo" id="dojoVideo" poster={backgroundPicture} src={backgroundVideo} type="video/mp4/"/>
         </div>
     )
 }

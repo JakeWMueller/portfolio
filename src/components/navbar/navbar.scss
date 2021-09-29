@@ -2,15 +2,19 @@
 
 .navbar{
     width: 100vw;
-    height: 60px;
+    height: 40px;
     background-color: black;
     color: $mainColor;
     position: fixed;
+    padding-bottom: 7px;
     top: 0;
     z-index: 2;
 
     .wrapper{
-        padding: 10px 30px;
+        padding-left: 14px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 14px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -20,21 +24,28 @@
             display: flex;
             align-items: center;
             .logo{
-                padding-right: 10px;
-                font-size: 30px;
+
+                font-size: 28px;
                 font-weight: 700;
                 text-decoration: none;
                 color: inherit;
             }
 
             .navlink{
-                padding-left: 10px;
-                padding-right: 10px;
-                font-size: 30px;
+                padding-left: 7px;
+                padding-right: 7px;
+                font-size: 28px;
                 font-weight: 400;
                 text-decoration: none;
                 color: inherit;
             }
+        }
+        .right{
+            padding-right: 5px;
+            display: flex;
+            align-items: center;
+            z-index: 3;
+            margin-right: 5px;
         }
     }
 }
