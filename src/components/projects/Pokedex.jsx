@@ -1,6 +1,6 @@
 import "./pokedex.scss";
 import pokemon from "../../assets/pokemon.png";
-// import pokedexBackground from "../../assets/pokedexBackgrond.png";
+import pokeballgif from "../../assets/pokeballshaking.gif";
 
 export default function Pokedex() {
     return (
@@ -14,17 +14,10 @@ export default function Pokedex() {
             overflow: "auto",
             color: "#FF1F1F"
         }}>
-            <div className="container" id="container" style={{
-                display: "flex",
-                top: "40%",
-                left: "50%",
-                bottom: "50%",
-                position: "absolute",
-                width: "40em",
-                height: "20em",
-                
-            }}></div>
-            {/* https://generation1pokedex.herokuapp.com/#/ */}
+            
+            <div className="pokeball" id="pokeball">
+                <a href="https://generation1pokedex.herokuapp.com/#/" target="_blank" rel="noreferrer"><img src={pokeballgif} alt="pokeball shaking"></img></a>
+            </div>
             
         </div>
     )

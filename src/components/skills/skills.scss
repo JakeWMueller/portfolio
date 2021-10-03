@@ -2,4 +2,75 @@
     display: flex;
     height: calc(100vh - 40px);
     width: 100%;
+        .container{
+            width: 100vw;
+            display: grid;
+            position: absolute;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 10px 10px;
+            grid-auto-flow: column;
+            align-items: center;
+            justify-content: center;
+            grid-template-areas: 
+            "html css js mongo express react node" "d3 sass heroku python jupyter flask linux" "git boostrap postman matlab gnuoctave gimp stackoverflow";
+        
+        img{
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            float: inline-end;
+        }
+        .html { grid-area: html; }
+        .css { grid-area: css; }
+        .js { grid-area: js; }
+        .mongo { grid-area: mongo; }
+        .express { grid-area: express; }
+        .react { grid-area: react; }
+        .node { grid-area: node; }
+        .d3 { grid-area: d3; }
+        .sass { grid-area: sass; }
+        .heroku { grid-area: heroku; }
+        .python { grid-area: python; }
+        .jupyter { grid-area: jupyter; }
+        .flask { grid-area: flask; }
+        .linux { grid-area: linux; }
+        .git { grid-area: git; }
+        .bootstrap { grid-area: bootstrap; }
+        .postman { grid-area: postman; }
+        .matlab { grid-area: matlab; }
+        .gnuoctave { grid-area: gnuoctave; }
+        .gimp { grid-area: gimp; }
+        .stackoverflow { grid-area: stackoverflow; }
+            // display: flex;
+            // width: 100%;
+            // height: 100%;
+            // flex-direction: row;
+            // position: absolute;
+            // color: white;
+            // align-items: center;
+            // justify-content: center;
+            // .ct{
+            //         position: absolute;
+            //         height: 100%;
+            //         width: 100%;
+            //         text-align: center;
+            //         display: flex;
+            //         align-items: center;
+            //         justify-content: center;
+            //         z-index: 2;
+            //         color: whitesmoke;
+            //         font-weight: 700;
+            //         text-shadow: 2px;
+            //     }
+            // .logos{
+            //     background: rgab(black, 0.66);
+            //     position: absolute;
+            //     padding: 1rem;
+            //     color: white;
+            //     max-width: 600px;
+            //     margin: 1rem auto;
+
+            // }
+        }
 }
