@@ -22,7 +22,7 @@ import matlab from "../../assets/devlogos/matlab.jpeg";
 import gnuoctave from "../../assets/devlogos/gnuoctave.png";
 import gimp from "../../assets/devlogos/gimp.png";
 import stackoverflow from "../../assets/devlogos/stackoverflow.png";
-// import ct from "../../assets/ct-logo.png";
+import ct from "../../assets/ct-logo.png";
 
 export default function Skills() {
     return (
@@ -43,35 +43,33 @@ export default function Skills() {
                 <source src={backgroundVideo} type="video/mp4"/>
             </video>
             </div>
-            <div className="container" id="container">
-                {/* <div classNameName="ct" id="ct"><a href="https://codingtemple.com" target="_blank" rel="noreferrer"><img src={ct} alt="Coding Temple Logo"/></a></div>
-                <div classNameName="logos"></div> */}
-                <div className="html"><img src={html} alt="HTML"/></div>
-                <div className="css"><img src={css} alt="CSS"/></div>
-                <div className="js"><img src={js} alt="JavaScript"/></div>
-                <div className="mongo"><img src={mongo} alt="MongoDB"/></div>
-                <div className="express"><img src={express} alt="Express"/></div>
-                <div className="react"><img src={react} alt="React"/></div>
-                <div className="node"><img src={node} alt="Node.js"/></div>
-                <div className="d3"><img src={d3} alt="D3"/></div>
-                <div className="sass"><img src={sass} alt="Sass"/></div>
-                <div className="heroku"><img src={heroku} alt="Heroku"/></div>
-                <div className="python"><img src={python} alt="Python"/></div>
-                <div className="jupyter"><img src={jupyter} alt="Jupyter"/></div>
-                <div className="flask"><img src={flask} alt="Flask"/></div>
-                <div className="linux"><img src={linux} alt="Linux"/></div>
-                <div className="git"><img src={git} alt="Git"/></div>
-                <div className="bootstrap"><img src={bootstrap} alt="Bootstrap"/></div>
-                <div className="postman"><img src={postman} alt="Postman"/></div>
-                <div className="matlab"><img src={matlab} alt="Matlab"/></div>
-                <div className="gnuoctave"><img src={gnuoctave} alt="GNU Octave"/></div>
-                <div className="gimp"><img src={gimp} alt="Gimp"/></div>
-                <div className="stackoverflow"><img src={stackoverflow} alt="Stack Overflow"/></div>
-                <div className="skills">
-                    <div className="Skills">Skills</div>
-                </div>
+            <div className="header" style={{ position: "absolute"}}>
+                <div className="grid-item" style={{color: "white"}}>Where I trained</div>
+                <div className="grid-item" id="ct"><a href="https://codingtemple.com" target="_blank" rel="noreferrer"><img src={ct} alt="Coding Temple Logo"/></a></div>
             </div>
-            
+            <div className="container" id="container">
+                <div className="grid-item"><img src={html} alt="HTML"/></div>
+                <div className="grid-item"><img src={css} alt="CSS"/></div>
+                <div className="grid-item"><img src={js} alt="JavaScript"/></div>
+                <div className="grid-item"><img src={mongo} alt="MongoDB"/></div>
+                <div className="grid-item"><img src={express} alt="Express"/></div>
+                <div className="grid-item"><img src={react} alt="React"/></div>
+                <div className="grid-item"><img src={node} alt="Node.js"/></div>
+                <div className="grid-item"><img src={d3} alt="D3"/></div>
+                <div className="grid-item"><img src={sass} alt="Sass"/></div>
+                <div className="grid-item"><img src={heroku} alt="Heroku"/></div>
+                <div className="grid-item"><img src={python} alt="Python"/></div>
+                <div className="grid-item"><img src={jupyter} alt="Jupyter"/></div>
+                <div className="grid-item"><img src={flask} alt="Flask"/></div>
+                <div className="grid-item"><img src={linux} alt="Linux"/></div>
+                <div className="grid-item"><img src={git} alt="Git"/></div>
+                <div className="grid-item"><img src={bootstrap} alt="Bootstrap"/></div>
+                <div className="grid-item"><img src={postman} alt="Postman"/></div>
+                <div className="grid-item"><img src={matlab} alt="Matlab"/></div>
+                <div className="grid-item"><img src={gnuoctave} alt="GNU Octave"/></div>
+                <div className="grid-item"><img src={gimp} alt="Gimp"/></div>
+                <div className="grid-item"><img src={stackoverflow} alt="Stack Overflow"/></div>
+            </div>
         </div>
     )
 }
