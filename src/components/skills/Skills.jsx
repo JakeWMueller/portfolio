@@ -23,10 +23,6 @@ import gnuoctave from "../../assets/devlogos/gnuoctave.png";
 import gimp from "../../assets/devlogos/gimp.png";
 import stackoverflow from "../../assets/devlogos/stackoverflow.png";
 import ct from "../../assets/ct-logo.png";
-import { ArrowBackIosRounded } from "@material-ui/icons";
-import { ArrowForwardIosRounded } from "@material-ui/icons";
-
-
 
 export default function Skills() {
     return (
@@ -51,7 +47,7 @@ export default function Skills() {
                 <div className="carousel" id="carousel">
                     <div className="container">
                         <div className="item" id="item">
-                            <h1>I trained in the
+                            <h1>trained in the
                                 <p>Temple</p>
                                 <div id="ct"><a href="https://codingtemple.com" target="_blank" rel="noreferrer"><img src={ct} alt="Coding Temple Logo"/></a></div>
                             </h1> 
@@ -81,8 +77,8 @@ export default function Skills() {
                         </div>
                     </div>
                 </div>
-                <div className="arrow left" alt="arrow" style={{ cursor: "pointer" }}><ArrowBackIosRounded/></div>
-                <div className="arrow right" alt="arrow" style={{ cursor: "pointer" }} ><ArrowForwardIosRounded/></div>
+                {/* <div className="arrow left" alt="arrow" style={{ cursor: "pointer" }}><ArrowBackIosRounded/></div>
+                <div className="arrow right" alt="arrow" style={{ cursor: "pointer" }} ><ArrowForwardIosRounded/></div> */}
         </div>
     )
 }
