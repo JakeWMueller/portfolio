@@ -22,6 +22,7 @@ export default function Hi() {
                 autoPlay 
                 loop 
                 muted 
+                playsInline
                 poster={backgroundPicture}
                 style={{
                     position: "relative",
@@ -40,7 +41,6 @@ export default function Hi() {
                 <div className="right">
                     <h2><span ref={textRef}></span></h2>
                 </div>
-            
             </div>
         </div>
     )
