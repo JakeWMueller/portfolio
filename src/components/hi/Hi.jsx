@@ -9,7 +9,7 @@ export default function Hi() {
 
     useEffect(() => {
         init(textRef.current, {
-            showCurser: true,
+            showCursor: true,
             startDelay: 2000,
             backDelay: 1500,
             backSpeed: 60,
