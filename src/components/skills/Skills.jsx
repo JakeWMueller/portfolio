@@ -18,7 +18,7 @@ import linux from "../../assets/devlogos/linux.png";
 import git from "../../assets/devlogos/git.png";
 import bootstrap from "../../assets/devlogos/bootstrap.png";
 import postman from "../../assets/devlogos/postman.png";
-import matlab from "../../assets/devlogos/matlab.jpeg";
+import matlab from "../../assets/devlogos/matlab.png";
 import gnuoctave from "../../assets/devlogos/gnuoctave.png";
 import gimp from "../../assets/devlogos/gimp.png";
 import stackoverflow from "../../assets/devlogos/stackoverflow.png";
@@ -77,8 +77,6 @@ export default function Skills() {
                         </div>
                     </div>
                 </div>
-                {/* <div className="arrow left" alt="arrow" style={{ cursor: "pointer" }}><ArrowBackIosRounded/></div>
-                <div className="arrow right" alt="arrow" style={{ cursor: "pointer" }} ><ArrowForwardIosRounded/></div> */}
         </div>
     )
 }
