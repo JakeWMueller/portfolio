@@ -1,23 +1,22 @@
 import "./music.scss";
+import fractalGold from "../../assets/fractalGold.jpg";
 
 export default function Music() {
     return (
-        <div className="music" id="music">
-            {/* <video 
-                autoPlay 
-                loop 
-                muted 
-                poster={backgroundPicture}
-                style={{
-                    position: "relative",
-                    display: "flex", //
-                    width: "100vw",
-                    height: "100%",
-                    objectFit: "cover",
-                    zIndex: -1
-                }}>
-                <source src={backgroundVideo} type="video/mp4"/>
-            </video> */}
+        <div className="music" id="music" style={{
+            display: "flex",
+            position: "relative",
+            backgroundImage: `url(${fractalGold})`,
+            backgroundSize: "cover",
+            width: "100vw",
+            height: "100%",
+            justifyContent: "center",
+            alignItems: "center"
+            }}>
+            <div className="header" id="header">
+                <h1>Coming Soon</h1>
+            </div>
         </div>
+        
     )
 }

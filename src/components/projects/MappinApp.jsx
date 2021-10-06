@@ -10,11 +10,11 @@ export default function MappinApp() {
     useEffect(() => {
         init(textRef.current, {
             showCursor: false,
-            startDelay: 2000,
+            startDelay: 200,
             typeSpeed: 50,
             disableBackTyping: true,
             loop:false,
-            strings: ["Made with Mongoose, Express, React, Node.js, Axios, MapBox, Material-UI, Heroku and love."," "]
+            strings: ["Made with Mongoose, Express, React, Node.js, Axios, MapBox, Material-UI, Heroku and love."]
         })
     })
     return (
@@ -25,16 +25,16 @@ export default function MappinApp() {
             backgroundSize: "cover",
             width: "100vw",
             height: "100%",
-            color: "black",
+            color: "#7775B2",
             justifyContent: "center",
             alignItems: "center"
             }}>
-            <div className="top" id="id" style={{
-                position: "absolute",
-                zIndex: 3
-            }}>
-                <h2><span ref={textRef}></span></h2>
-            </div>
+                <h2 style={{
+                    position: "absolute",
+                    bottom: "20px",
+                    zIndex: 3,
+                    textShadow: "1px 1px black",
+                }}><span ref={textRef}></span></h2>
             <div className="container" id="container" style={{
                 backgroundColor: "black",
                 width: "80%",
@@ -46,7 +46,7 @@ export default function MappinApp() {
                 borderRadius: "15px",
                 MozBorderRadius: "15px",
                 justifyContent: "center",
-            }}><video controls><source src={MapPinAppDemo} type="video/mp4"></source></video>
+            }}><video controls muted><source src={MapPinAppDemo} type="video/mp4"></source></video>
             </div>
         </div>
     )

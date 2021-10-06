@@ -8,17 +8,14 @@ export default function Pokedex() {
             display: "flex",
             position: "relative",
             backgroundImage: `url(${pokemon})`,
-            objectFit: "cover",
-            width: "100vw",
+            backgroundSize: "cover",
+            width: "100%",
             height: "100%",
-            overflow: "auto",
             color: "#FF1F1F"
         }}>
-            
             <div className="pokeball" id="pokeball">
                 <a href="https://generation1pokedex.herokuapp.com/#/" target="_blank" rel="noreferrer"><img src={pokeballgif} alt="pokeball shaking"></img></a>
-            </div>
-            
+            </div> 
         </div>
     )
 }
