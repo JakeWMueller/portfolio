@@ -10,9 +10,21 @@ export default function MappinApp() {
             backgroundSize: "cover",
             width: "100vw",
             height: "100%",
-            color: "black"
-        }}>
-            Anyone There
+            color: "black",
+            justifyContent: "center",
+            alignItems: "center"
+            }}>
+            <div className="container" id="container" style={{
+                width: "90%",
+                height: "80%",
+                display: "flex",
+                position: "absolute",
+                padding: "10px",
+                border: "2px solid black",
+                borderRadius: "15px",
+                MozBorderRadius: "15px",
+            }}>
+            </div>
         </div>
     )
 }
