@@ -1,7 +1,6 @@
 import "./contact.scss";
 import { Mail, Instagram, LinkedIn, GitHub } from "@material-ui/icons";
 
-import TikTok from "../../assets/TikTok.JPG";
 
 
 export default function Contact() {
@@ -14,19 +13,20 @@ export default function Contact() {
             width: "100vw",
             height: "100%",
         }}>
-            <div className="itemContainer">
-            <Mail/>
-            <span>  jake.william.mueller@gmail.com </span><br/>
-            <Instagram />  a href="jakeneedsfriends" <br/>
-            <LinkedIn/> a href="linked.com/jake-mueller" <br/>
-            <GitHub/> a href="github.com/jake-mueller" <br/>
-            <span> Code Wars Logo and link</span><br/>
-            <span> Medium Logo and link</span><br/>
-            <div className="TikTokContainer" id="TikTokContainer">
-                    <h4>For now, relax with Glacier Charmin and I</h4>
-                    <a href="https://vm.tiktok.com/ZMRoxXdWR/" target="_blank" rel="noreferrer"><img src={TikTok} alt="TikTokLink"></img></a>
+            <div className="container">
+                <h2>Contact <Mail/></h2>
+                    <form>
+                        <input type="text" placeholder="Email"/>
+                        <textarea placeholder="Message"></textarea>
+                        <button type="submit">Send</button>
+                    </form>
+                    <div className="bottom">
+                    <a href="https://www.linkedin.com/in/jake-mueller" target="_blank" rel="noreferrer"><LinkedIn/></a>
+                    <a href="https://www.github.com/JakeWMueller" target="_blank" rel="noreferrer"><GitHub/></a>
+                    <a href="https://www.instagram.com/jakeneedsfriends/" target="_blank" rel="noreferrer"><Instagram/></a>
                 </div>
             </div>
         </div>
+        
     )
 }

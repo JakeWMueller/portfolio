@@ -1,5 +1,6 @@
 import "./music.scss";
 import fractalGold from "../../assets/fractalGold.jpg";
+// import TikTok from "../../assets/TikTok.JPG";
 
 export default function Music() {
     return (
@@ -15,8 +16,13 @@ export default function Music() {
             }}>
             <div className="header" id="header">
                 <h1>Coming Soon</h1>
+                {/* <div className="TikTokContainer" id="TikTokContainer">
+                    <a href="https://vm.tiktok.com/ZMRoxXdWR/" target="_blank" rel="noreferrer"><img src={TikTok} alt="TikTokLink"></img></a>
+                </div> */}
             </div>
         </div>
         
     )
 }
+
+

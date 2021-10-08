@@ -1,11 +1,4 @@
-// import Hi from "./components/hi/Hi";
 import Navbar from "./components/navbar/Navbar";
-// import Skills from "./components/skills/Skills";
-// import Pokedex from "./components/projects/Pokedex";
-// import MappinApp from "./components/projects/MappinApp";
-// import Music from "./components/music/Music";
-// import Writing from "./components/writing/Writing";
-// import Contact from "./components/contact/Contact";
 import "./app.scss";
 import React, { lazy, Suspense } from 'react';
 const Hi = lazy(() => import('./components/hi/Hi'));
