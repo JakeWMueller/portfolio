@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .hi{
     display: flex;
     height: calc(100vh - 40px);
@@ -13,6 +15,9 @@
         justify-content: center;
         font-size: xx-large;
         text-shadow: 2px 2px black;
+        @include mobile {
+            flex-direction: column;
+        }
 
         .left{
             display: flex;
@@ -20,6 +25,14 @@
             height: 50%;
             justify-content: right;
             align-items: center;
+            @include mobile {
+                flex-direction: row;
+                font-size: medium;
+                width: 50%;
+                height: 50%;
+                justify-content: center;
+                align-items: center;
+            }
             
         }
         .right{
@@ -38,6 +51,15 @@
                 100%{
                     opacity: 0;
                 }
+            }
+            @include mobile {
+                font-size: medium;
+                justify-content: center;
+                align-items: center;
+                width: 60%;
+                height: 50%;
+                position: absolute;
+                bottom: 20%;
             }
         }
     }

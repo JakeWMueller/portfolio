@@ -1,5 +1,10 @@
 @import "../../global.scss";
-
+@media (min-width: 600px) {
+    .item2 { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+    .item2 { grid-template-columns: repeat(3, 1fr); }
+}
 .skills{
     margin: 0;
     display: flex;
@@ -59,25 +64,34 @@
                  
             .item2{
                 width: 100%;
+                max-width: 1200px;
                 position: relative;
                 height: 100%;
+                margin: 0 auto;
                 overflow-x: hidden;
                 display: grid;
                 justify-content: center;
                 align-items: center;
                 grid-template-columns: auto auto auto auto auto auto auto;
-                gap: 5px 5px;
-                padding: 5px;
-                    }
+                grid-gap: 1rem;
+                @include mobile {
+                    grid-template-columns: auto auto auto;
+                    grid-gap: 0.5rem;
                 }
+            }
+        }
                     
                 img{
                     width: 100px;
                     height: 100px;
                     object-fit: contain;
+                    @include mobile {
+                        width: 50px;
+                        height: 50px;
+                    }
                 }
                 .grid-item{ 
-                    padding: 20px;
+                    padding: 10px;
                     justify-content: center;
                     align-items: center;
                 }

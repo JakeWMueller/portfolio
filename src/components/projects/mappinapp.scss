@@ -25,28 +25,30 @@
             border: 2px solid black;
             border-radius: 15px;
             -moz-border-radius: 15px;
+            align-items: center;
             justify-content: center;
             @include mobile {
                 height: 50%;
                 margin: 50px;
-                
             }
         .right{
             display: flex;
+            justify-content: center;
+            align-items: center;
             padding: 10%;
             margin: 10%;
-
+            @include mobile {
+                    padding: 20px;
+                    font-size: medium;
+                }
             h2{
-                padding: 1px;
+                padding: 10px;
                 display: flex;
                 align-content: center;
                 justify-content: center;
                 z-index: 3;
-                text-shadow: 1px 1px black;
-                @include mobile {
-                    padding: 20px;
-                    margin: auto;
-                }
+                text-shadow: 2px 2px black;
+                
             }
         }
         
