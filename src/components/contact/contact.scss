@@ -16,7 +16,8 @@
         align-items: center;
         justify-content: space-around;
         h2{
-            font-size: 14;
+            font-size: 20;
+            display: flex;
             justify-content: center;
             align-items: center;
         }
@@ -46,7 +47,24 @@
                 font-weight: 500;
                 cursor: pointer;
                 margin: 10px;
+
+                &:focus{
+                    outline: none;
+                }
             }
+
+            span{
+                color: green;
+            }
+        }
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px;
+        a{
+            padding: 5px;
         }
     }
 }
