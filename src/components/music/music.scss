@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .music{
     display: flex;
     height: calc(100vh - 40px);
@@ -19,6 +21,9 @@
             line-height: 1.5;
             font-size: 2vw;
             text-align: center;
+            @include mobile {
+                font-size: xx-large;
+            }
         }
             
         }

@@ -19,34 +19,16 @@ export default function MappinApp() {
     })
     return (
         <div className="mappinapp" id="mappinapp" style={{
-            display: "flex",
-            position: "relative",
             backgroundImage: `url(${mapBackground})`,
             backgroundSize: "cover",
-            width: "100vw",
-            height: "100%",
-            color: "#7775B2",
-            justifyContent: "center",
-            alignItems: "center"
             }}>
-                <h2 style={{
-                    position: "absolute",
-                    bottom: "20px",
-                    zIndex: 3,
-                    textShadow: "1px 1px black",
-                }}><span ref={textRef}></span></h2>
-            <div className="container" id="container" style={{
-                backgroundColor: "black",
-                width: "80%",
-                height: "85%",
-                display: "flex",
-                position: "absolute",
-                padding: "0px",
-                border: "2px solid black",
-                borderRadius: "15px",
-                MozBorderRadius: "15px",
-                justifyContent: "center",
-            }}><video controls muted><source src={MapPinAppDemo} type="video/mp4"></source></video>
+            <div className="biggerBoat">
+                <div className="container" id="container">
+                    <video controls muted><source src={MapPinAppDemo} type="video/mp4"></source></video>
+                </div>
+                <div className="right">
+                    <h2><span ref={textRef}></span></h2>
+                </div>
             </div>
         </div>
     )

@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .navbar{
     width: 100%;
     height: 40px;
@@ -12,10 +14,12 @@
         align-items: center;
         justify-content: space-between;
         text-decoration: none;
+        
 
         .left{
             display: flex;
             align-items: center;
+            
             .logo{
 
                 font-size: 24px;
@@ -23,6 +27,10 @@
                 padding-left: 10px;
                 text-decoration: none;
                 color: inherit;
+                @include mobile{
+                    font-size: 12px;
+                    font-weight: 200;
+                }
             }
 
             .navlink{
@@ -32,6 +40,10 @@
                 font-weight: 400;
                 text-decoration: none;
                 color: inherit;
+                @include mobile{
+                    font-size: 12px;
+                    font-weight: 200;
+                }
             }
         }
         .right{

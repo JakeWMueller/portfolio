@@ -49,7 +49,7 @@ export default function Skills() {
                         <div className="item" id="item">
                             <h1>trained in the
                                 <p>Temple</p>
-                                <div id="ct"><a href="https://codingtemple.com" target="_blank" rel="noreferrer"><img src={ct} alt="Coding Temple Logo"/></a></div>
+                                <div id="ct"><a href="https://codingtemple.com/hire-software-developers/" target="_blank" rel="noreferrer"><img src={ct} alt="Coding Temple Logo"/></a></div>
                             </h1> 
                         </div>
                         <div className="item2" id="item2">
