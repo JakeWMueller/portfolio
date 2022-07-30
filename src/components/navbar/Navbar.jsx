@@ -1,5 +1,5 @@
 import "./navbar.scss";
-import { Brightness3 } from "@material-ui/icons";
+import { Landscape } from "@material-ui/icons";
 
 export default function Navbar() {
     return (
@@ -14,7 +14,7 @@ export default function Navbar() {
                     <a href="#contact" className="navlink">Contact</a>
                 </div>
                 <div className="right">
-                    <Brightness3/>
+                    <Landscape/>
                 </div>
             </div>
         </div>

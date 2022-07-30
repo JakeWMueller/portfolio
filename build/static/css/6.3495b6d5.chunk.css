@@ -1,0 +1,2 @@
+.music{height:calc(100vh - 40px)}.music,.music .header{display:flex;width:100%}.music .header{height:100%;z-index:2;align-items:center;justify-content:center;color:#fff;text-transform:uppercase;text-shadow:2px 2px #000;font-family:"Syncopate",sans-serif}.music .header h1{letter-spacing:2vw;line-height:1.5;font-size:2vw;text-align:center}@media (max-width:810px){.music .header h1{font-size:xx-large}}
+/*# sourceMappingURL=6.3495b6d5.chunk.css.map */

@@ -1,0 +1,2 @@
+.writing{background-color:#fff;display:flex;height:calc(100vh - 40px);display:"flex";position:"relative";background-color:"white";background-size:"cover";width:"100%";align-items:center;justify-content:center}@media (max-width:810px){.writing{flex-direction:column;align-items:center}}.writing .medium{align-items:center;justify-content:center;display:flex;position:relative;height:auto;width:100%}@media (max-width:810px){.writing .medium a{display:flex;align-items:flex-start;object-fit:fill;overflow:hidden}}
+/*# sourceMappingURL=9.791ef182.chunk.css.map */
