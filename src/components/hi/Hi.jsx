@@ -3,6 +3,7 @@ import backgroundPicture from "../../assets/mountainpic.png";
 import { useEffect, useRef } from "react";
 import { init } from "ityped";
 import "./hi.scss";
+import { Spa, ExpandMore} from '@material-ui/icons';
 
 export default function Hi() {
     const textRef = useRef();
@@ -36,11 +37,13 @@ export default function Hi() {
             </video>
             <div className="container">
                 <div className="left">
-                    <h2>Hi, I'm Jake | </h2>
+                    <h2>Hi, I'm Jake </h2>
                 </div>
+                <Spa/>
                 <div className="right">
                     <h2><span ref={textRef}></span></h2>
                 </div>
+                <div className="DownArrow"><ExpandMore/></div>
             </div>
         </div>
     )
